@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "ipsc.paper",
+  "names": {
+    "en": "IPSC target",
+    "de": "IPSC-Ziel",
+    "fr": "Cible IPSC"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["ipsc", "drill"],
+  "labelFamily": "T",
+  "count": {
+    "class": "paper"
+  },
+  "art": {
+    "kind": "board",
+    "board": "ipsc"
+  },
+  "physical": {
+    "width": 450,
+    "height": 570
+  }
+}

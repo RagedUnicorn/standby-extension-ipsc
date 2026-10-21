@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/extension.json",
+  "format": 1,
+  "id": "ipsc",
+  "names": {
+    "en": "IPSC",
+    "de": "IPSC",
+    "fr": "IPSC"
+  },
+  "version": "1.0.0",
+  "standby": "0.1.0",
+  "repository": "RagedUnicorn/standby-extension-ipsc",
+  "licence": "MIT",
+  "disciplines": ["ipsc", "drill"],
+  "stageDefaults": {
+    "ipsc": {
+      "board": "ipsc",
+      "trapTarget": "ipsc.paper"
+    },
+    "drill": {
+      "board": "ipsc",
+      "trapTarget": "ipsc.paper"
+    }
+  },
+  "order": ["ipsc.paper", "ipsc.noshoot"]
+}
