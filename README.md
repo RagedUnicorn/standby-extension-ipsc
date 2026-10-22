@@ -1,3 +1,5 @@
+![standby-extension-ipsc](docs/standby_extension_ipsc_banner.svg)
+
 # Standby extension: IPSC
 
 What [Standby](https://github.com/RagedUnicorn/standby) draws for IPSC stages and drills:
